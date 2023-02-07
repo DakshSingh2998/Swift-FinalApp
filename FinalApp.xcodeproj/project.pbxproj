@@ -18,6 +18,9 @@
 		523BBFEB298BAEC3002C394C /* FinalAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BBFEA298BAEC3002C394C /* FinalAppUITestsLaunchTests.swift */; };
 		523BBFFA298BB436002C394C /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BBFF9298BB436002C394C /* BackgroundGradient.swift */; };
 		523DEAA6298BDA2D00E41F09 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523DEAA5298BDA2D00E41F09 /* Launch Screen.storyboard */; };
+		528CBA2A29926BEF005F7F0C /* CustomPasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CBA2929926BEF005F7F0C /* CustomPasswordField.swift */; };
+		528CBA2C29926CA0005F7F0C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CBA2B29926CA0005F7F0C /* CustomButton.swift */; };
+		528FB3892992470E00A727CC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FB3882992470E00A727CC /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		523BBFEA298BAEC3002C394C /* FinalAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		523BBFF9298BB436002C394C /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
 		523DEAA5298BDA2D00E41F09 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		528CBA2929926BEF005F7F0C /* CustomPasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPasswordField.swift; sourceTree = "<group>"; };
+		528CBA2B29926CA0005F7F0C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		528FB3882992470E00A727CC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +109,14 @@
 		523BBFC3298BAEC1002C394C /* FinalApp */ = {
 			isa = PBXGroup;
 			children = (
+				528CBA2B29926CA0005F7F0C /* CustomButton.swift */,
 				523BBFC4298BAEC1002C394C /* AppDelegate.swift */,
 				523BBFC6298BAEC1002C394C /* SceneDelegate.swift */,
 				523BBFC8298BAEC1002C394C /* ViewController.swift */,
 				523BBFF9298BB436002C394C /* BackgroundGradient.swift */,
 				523BBFCA298BAEC1002C394C /* Main.storyboard */,
+				528FB3882992470E00A727CC /* CustomTextField.swift */,
+				528CBA2929926BEF005F7F0C /* CustomPasswordField.swift */,
 				523BBFD0298BAEC3002C394C /* Assets.xcassets */,
 				523BBFD5298BAEC3002C394C /* Info.plist */,
 				523DEAA5298BDA2D00E41F09 /* Launch Screen.storyboard */,
@@ -266,7 +275,10 @@
 			files = (
 				523BBFCF298BAEC1002C394C /* FinalApp.xcdatamodeld in Sources */,
 				523BBFC9298BAEC1002C394C /* ViewController.swift in Sources */,
+				528FB3892992470E00A727CC /* CustomTextField.swift in Sources */,
 				523BBFC5298BAEC1002C394C /* AppDelegate.swift in Sources */,
+				528CBA2C29926CA0005F7F0C /* CustomButton.swift in Sources */,
+				528CBA2A29926BEF005F7F0C /* CustomPasswordField.swift in Sources */,
 				523BBFC7298BAEC1002C394C /* SceneDelegate.swift in Sources */,
 				523BBFFA298BB436002C394C /* BackgroundGradient.swift in Sources */,
 			);
